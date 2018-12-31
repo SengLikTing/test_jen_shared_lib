@@ -1,10 +1,11 @@
 #!/usr/bin/env groovy
-import static org.foo.TestMe.*
+import static org.foo.*
 
 def call(String name = 'human') {
   echo "Hello, ${name}."
   calMe "work?"
   int_nest_call "hahaha"
   //echo new Environment().getAnimalCry(Environment.tiger)
-  echo getAnimalCry(Elu.cat)
+  b = new TestMe()
+  //echo getAnimalCry(Elu.cat)
 }
