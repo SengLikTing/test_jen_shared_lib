@@ -10,24 +10,24 @@ enum Environment {
     static getAnimalCry(Environment environment) {
       switch(environment) {
         case Environment.elephant: 
-          echo "gao"
+          return "gao"
           break
         case Environment.cat:
-          echo "meow"
+          return "meow"
           break
         case Environment.mouse:
-          echo "zhizhi"
+          return "zhizhi"
           break
         case Environment.tiger:
-          echo "wao"
+          return "wao"
           break
         case Environment.laohu:
-          echo "wao"
+          return "wao"
           break
       }
     }
 }
 def call(String nn = "int nesy") {
   echo "this is int nest call ${nn}"
-  Environment.getAnimalCry(Environment.laohu)
+  echo Environment.getAnimalCry(Environment.laohu)
 }
