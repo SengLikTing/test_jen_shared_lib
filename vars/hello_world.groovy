@@ -1,5 +1,4 @@
 #!/usr/bin/env groovy
-import org.foo.*
 import static org.foo.TestMe.*
 
 def call(String name = 'human') {
