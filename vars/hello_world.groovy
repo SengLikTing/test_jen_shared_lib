@@ -5,5 +5,5 @@ def call(String name = 'human') {
   calMe "work?"
   int_nest_call "hahaha"
   //echo new Environment().getAnimalCry(Environment.tiger)
-  echo new org.foo.bar.getAnimalCry(org.foo.elu.cat)
+  echo new org.foo.bar().getAnimalCry(org.foo.elu.cat)
 }
