@@ -9,26 +9,28 @@ enum Elu {
     laohu
 }
 
-static String getAnimalCry(Elu environment = Elu.mouse) {
-    switch(environment) {
-    case Elu.elephant: 
-      return "gao"
-      break
-    case Elu.cat:
-      return "meow"
-      break
-    case Elu.mouse:
-      return "zhizhi"
-      break
-    case Elu.tiger:
-      return "wao"
-      break
-    case Elu.laohu:
-      return "wao"
-      break
-    default:
-        return "mew"
-      break
+class testMe {
+    static String getAnimalCry(Elu environment = Elu.mouse) {
+        switch(environment) {
+        case Elu.elephant: 
+          return "gao"
+          break
+        case Elu.cat:
+          return "meow"
+          break
+        case Elu.mouse:
+          return "zhizhi"
+          break
+        case Elu.tiger:
+          return "wao"
+          break
+        case Elu.laohu:
+          return "wao"
+          break
+        default:
+            return "mew"
+          break
+        }
     }
 }
 
