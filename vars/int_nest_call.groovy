@@ -24,8 +24,6 @@ enum Environment {
         case Environment.laohu:
           echo "wao"
           break
-        default:
-          echo "O_O?"
       }
     }
 }
