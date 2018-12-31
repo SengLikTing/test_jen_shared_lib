@@ -1,34 +1,34 @@
 #!/usr/bin/env groovy
 package org.foo
 
-enum Environment {
+enum elu {
     elephant,
     cat,
     mouse,
     tiger,
     laohu
+}
 
-    def getAnimalCry(Environment environment = Environment.mouse) {
-      switch(environment) {
-        case Environment.elephant: 
-          return "gao"
-          break
-        case Environment.cat:
-          return "meow"
-          break
-        case Environment.mouse:
-          return "zhizhi"
-          break
-        case Environment.tiger:
-          return "wao"
-          break
-        case Environment.laohu:
-          return "wao"
-          break
-        default:
-            return "mew"
-          break
-      }
+def getAnimalCry(elu environment = elu.mouse) {
+    switch(elu) {
+    case elu.elephant: 
+      return "gao"
+      break
+    case elu.cat:
+      return "meow"
+      break
+    case elu.mouse:
+      return "zhizhi"
+      break
+    case elu.tiger:
+      return "wao"
+      break
+    case elu.laohu:
+      return "wao"
+      break
+    default:
+        return "mew"
+      break
     }
 }
 
