@@ -7,7 +7,7 @@ enum Environment {
     tiger,
     laohu
 
-    static getAnimalCry(Environment environment) {
+    static getAnimalCry(Environment environment = Environment.mouse) {
       switch(environment) {
         case Environment.elephant: 
           return "gao"
