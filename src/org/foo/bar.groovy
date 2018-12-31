@@ -9,7 +9,7 @@ enum Elu {
     laohu
 }
 */
-class TestMe {
+class Testme {
     static String getAnimalCry() {
       /*  switch(environment) {
         case Elu.elephant: 
