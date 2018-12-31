@@ -11,7 +11,7 @@ enum Elu {
 
 class TestMe {
     static def getAnimalCry(Elu environment = Elu.mouse) {
-        switch(environment) {
+      /*  switch(environment) {
         case Elu.elephant: 
           return "gao"
           break
@@ -30,7 +30,8 @@ class TestMe {
         default:
             return "mew"
           break
-        }
+        }*/
+        return "haha"
     }
 }
 
