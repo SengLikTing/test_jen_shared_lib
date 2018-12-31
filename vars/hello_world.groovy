@@ -4,5 +4,5 @@ def call(String name = 'human') {
   echo "Hello, ${name}."
   calMe "work?"
   int_nest_call "hahaha"
-  echo int_nest_call.Environment.getAnimalCry(int_nest_call.Environment.mouse)
+  echo jen_lib.Environment.getAnimalCry(jen_lib.Environment.mouse)
 }
