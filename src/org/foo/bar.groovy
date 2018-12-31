@@ -9,7 +9,7 @@ enum Environment {
     laohu
 }
 
-def static getAnimalCry(Environment environment) {
+def getAnimalCry(Environment environment) {
   switch(environment) {
     case Environment.elephant: 
       return "gao"
