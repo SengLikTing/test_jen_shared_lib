@@ -1,5 +1,5 @@
 #!/usr/bin/env groovy
-
+import org.foo.*
 
 def getAnimalCry(Environment environment = Environment.mouse) {
   switch(environment) {
