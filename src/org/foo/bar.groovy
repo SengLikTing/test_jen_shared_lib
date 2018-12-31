@@ -31,3 +31,7 @@ def getAnimalCry(Environment environment = Environment.mouse) {
       break
   }
 }
+
+def jarja() {
+    return "har"   
+}
