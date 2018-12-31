@@ -10,7 +10,7 @@ enum Elu {
 }
 
 class TestMe {
-    static def getAnimalCry() {
+    static String getAnimalCry() {
       /*  switch(environment) {
         case Elu.elephant: 
           return "gao"
