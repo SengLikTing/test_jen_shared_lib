@@ -9,7 +9,7 @@ enum Environment {
     laohu
 }
 
-static getAnimalCry(Environment environment = Environment.mouse) {
+static getAnimalCry(Environment environment) {
   switch(environment) {
     case Environment.elephant: 
       return "gao"
@@ -25,6 +25,9 @@ static getAnimalCry(Environment environment = Environment.mouse) {
       break
     case Environment.laohu:
       return "wao"
+      break
+    default:
+        return "mew"
       break
   }
 }
