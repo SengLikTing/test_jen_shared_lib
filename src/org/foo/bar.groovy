@@ -1,6 +1,6 @@
 #!/usr/bin/env groovy
 package org.foo
-
+/*
 enum Elu {
     elephant,
     cat,
@@ -8,7 +8,7 @@ enum Elu {
     tiger,
     laohu
 }
-
+*/
 class TestMe {
     static String getAnimalCry() {
       /*  switch(environment) {
