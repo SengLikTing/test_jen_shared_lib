@@ -10,7 +10,7 @@ enum elu {
 }
 
 def getAnimalCry(elu environment = elu.mouse) {
-    switch(elu) {
+    switch(environment) {
     case elu.elephant: 
       return "gao"
       break
