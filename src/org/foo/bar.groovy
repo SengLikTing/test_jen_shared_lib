@@ -1,7 +1,7 @@
 #!/usr/bin/env groovy
 package org.foo
 
-enum Environment {
+static enum Environment {
     elephant,
     cat,
     mouse,
