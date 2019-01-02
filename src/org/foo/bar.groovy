@@ -10,7 +10,7 @@ class bar {
         laohu
     }
 
-    def dummy() {
+    static def dummy() {
      return "niet"   
     }
 }
