@@ -1,6 +1,6 @@
 #!/usr/bin/env groovy
 package org.foo
-/*
+
 enum Elu {
     elephant,
     cat,
@@ -8,30 +8,3 @@ enum Elu {
     tiger,
     laohu
 }
-*/
-class Testme {
-    static String getAnimalCry() {
-      /*  switch(environment) {
-        case Elu.elephant: 
-          return "gao"
-          break
-        case Elu.cat:
-          return "meow"
-          break
-        case Elu.mouse:
-          return "zhizhi"
-          break
-        case Elu.tiger:
-          return "wao"
-          break
-        case Elu.laohu:
-          return "wao"
-          break
-        default:
-            return "mew"
-          break
-        }*/
-        return "haha"
-    }
-}
-
