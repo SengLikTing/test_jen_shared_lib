@@ -11,14 +11,12 @@ def info(message) {
 }
 
 def warning() {
-  /*def a = Elu.mouse
+  Elu a = Elu.mouse
    switch(a) {
     case Elu.elephant:
       echo "this is ele"
       break
-   default:
-      echo "unk"
-   }*/
-  a = new bar()
-  a.dummy(Elu.mouse)
+   }
+  b = new bar()
+  b.dummy(Elu.mouse)
 }
