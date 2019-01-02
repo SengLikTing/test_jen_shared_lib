@@ -20,4 +20,5 @@ def warning() {
       echo "unk"
    }*/
   a = new bar()
+  a.dummy(Elu.mouse)
 }
