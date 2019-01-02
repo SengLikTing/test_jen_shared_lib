@@ -1,6 +1,6 @@
 #!/usr/bin/env groovy
   
-enum Em {
+static enum Em {
  elephant,
    niet
 }
