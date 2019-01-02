@@ -1,5 +1,4 @@
 #!/usr/bin/env groovy
-import org.foo.*
 
 def call(String nn = "int nesy") {
   echo "this is int nest call ${nn}"
