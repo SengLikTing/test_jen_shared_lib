@@ -1,4 +1,5 @@
-#!/usr/bin/env groovy
+#!/usr/bin/groovy
+
 import static org.foo.bar.*
  
 def call(String name = 'human') {
