@@ -1,5 +1,5 @@
 #!/usr/bin/env groovy
-import static org.foo.Elu.*
+import static org.foo.*
   
 def call(String nn = "int nesy") {
   echo "this is int nest call ${nn}"
@@ -11,7 +11,7 @@ def info(message) {
 }
 
 def warning() {
-   Elu a = Elu.mouse
+   def a = Elu.mouse
    switch(a) {
     case Elu.elephant:
       echo "this is ele"
