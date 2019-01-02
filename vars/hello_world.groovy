@@ -1,4 +1,4 @@
-#!/usr/bin/groovy
+#!/usr/bin/gro
 
 import static org.foo.bar.*
  
