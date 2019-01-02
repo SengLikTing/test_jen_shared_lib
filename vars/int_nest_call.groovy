@@ -10,7 +10,7 @@ def info(message) {
     echo "INFO: ${message}"
 }
 
-def warning(a) {
+def warning(a = Elu.mouse) {
    switch(a) {
     case Elu.elephant:
       echo "this is ele"
