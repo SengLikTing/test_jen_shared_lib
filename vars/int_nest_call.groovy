@@ -10,9 +10,9 @@ def info(message) {
     echo "INFO: ${message}"
 }
 
-def warning(bar a) {
+def warning(Elu a) {
    switch(a) {
-    case bar.elephant:
+    case Elu.elephant:
       echo "this is ele"
       break
    default:
