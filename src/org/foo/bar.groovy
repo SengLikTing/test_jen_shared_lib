@@ -1,7 +1,7 @@
 #!/usr/bin/env groovy
 package org.foo
 
-enum Elu {
+static enum Elu {
     elephant,
     cat,
     mouse,
