@@ -1,7 +1,7 @@
 #!/usr/bin/env groovy
 package org.foo
 
-public enum Elu {
+enum Elu {
     elephant,
     cat,
     mouse,
@@ -9,6 +9,3 @@ public enum Elu {
     laohu
 }
 
-def dummy(Elu b = Elu.elephant) {
-    return "niet"
-}
