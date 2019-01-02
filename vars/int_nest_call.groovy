@@ -15,7 +15,7 @@ def warning(Elu a) {
     case Elu.elephant:
       echo "this is ele"
       break
+    default:
+      echo "unkown"
    }
-/*  b = new bar()
-  b.dummy(Elu.mouse)*/
 }
