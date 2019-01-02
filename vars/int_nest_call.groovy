@@ -11,13 +11,12 @@ def info(message) {
 }
 
 def warning() {
-  /*def a = Elu.mouse
+  def a = Elu.mouse
    switch(a) {
     case Elu.elephant:
       echo "this is ele"
       break
    default:
       echo "unk"
-   }*/
-  echo "me"
+   }
 }
