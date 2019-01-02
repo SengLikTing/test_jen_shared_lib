@@ -5,7 +5,7 @@ def call(String name = 'human') {
   calMe "work?"
   int_nest_call "hahaha"
   int_nest_call.info "gogo"
-  Aluminium.kon
+  int_nest_call.warning(Aluminium.kon)
   //echo new Environment().getAnimalCry(Environment.tiger)
   //b = new TestMe()
   //echo getAnimalCry(Elu.cat)
