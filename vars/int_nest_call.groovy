@@ -1,11 +1,5 @@
 #!/usr/bin/env groovy
-
-enum Alu {
-   kon,
-   rin,
-   zai,
-   dette
-}
+import org.foo.*
 
 def call(String nn = "int nesy") {
   echo "this is int nest call ${nn}"
@@ -16,10 +10,10 @@ def info(message) {
     echo "INFO: ${message}"
 }
 
-def warning(Alu a) {
+def warning(Elu a) {
    switch(a) {
-    case Alu.kon:
-      echo "this is kon"
+    case Elu.elephant:
+      echo "this is ele"
       break
    default:
       echo "unk"
