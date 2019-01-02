@@ -8,3 +8,7 @@ enum Elu {
     tiger,
     laohu
 }
+
+def dummy() {
+    return "niet"
+}
