@@ -9,3 +9,6 @@ static enum Elu {
     laohu
 }
 
+def dummy() {
+ return "niet"   
+}
