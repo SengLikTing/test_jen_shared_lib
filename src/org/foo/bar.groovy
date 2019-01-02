@@ -1,5 +1,5 @@
 #!/usr/bin/env groovy
-package org.foo
+package org.foo.bar
 
 enum Elu {
     elephant,
