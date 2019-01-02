@@ -1,5 +1,5 @@
 #!/usr/bin/env groovy
-import org.foo.*
+import org.foo.bar
   
 def call(String nn = "int nesy") {
   echo "this is int nest call ${nn}"
@@ -11,12 +11,12 @@ def info(message) {
 }
 
 def warning() {
-  Elu a = Elu.mouse
+  bar.Elu a = bar.Elu.mouse
    switch(a) {
-    case Elu.elephant:
+    case bar.Elu.elephant:
       echo "this is ele"
       break
    }
-  b = new bar()
-  b.dummy(Elu.mouse)
+/*  b = new bar()
+  b.dummy(Elu.mouse)*/
 }
