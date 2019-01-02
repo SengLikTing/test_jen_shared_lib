@@ -1,9 +1,5 @@
 #!/usr/bin/env groovy
-  
-static enum Em {
- elephant,
-   niet
-}
+import static org.foo.bar.*
 
 def call(String nn = "int nesy") {
   echo "this is int nest call ${nn}"
@@ -14,9 +10,9 @@ def info(message) {
     echo "INFO: ${message}"
 }
 
-def warning(Em a) {
+def warning(Elu a) {
    switch(a) {
-    case Em.elephant:
+    case Elu.elephant:
       echo "this is ele"
       break
    }
