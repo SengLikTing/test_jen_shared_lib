@@ -1,6 +1,6 @@
 #!/usr/bin/env groovy
 
-enum Aluminium {
+enum Alu {
    kon,
    rin,
    zai,
@@ -16,6 +16,12 @@ def info(message) {
     echo "INFO: ${message}"
 }
 
-def warning(message) {
-    echo "WARNING: ${message}"
+def warning(Alu a) {
+   switch(a) {
+    case Alu.kon:
+      echo "this is kon"
+      break
+   default:
+      echo "unk"
+   }
 }
