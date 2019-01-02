@@ -11,9 +11,9 @@ def info(message) {
 }
 
 def warning() {
-  bar.Elu a = bar.Elu.mouse
+   Elu a = Elu.mouse
    switch(a) {
-    case bar.Elu.elephant:
+    case Elu.elephant:
       echo "this is ele"
       break
    }
