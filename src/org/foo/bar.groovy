@@ -9,6 +9,6 @@ enum Elu {
     laohu
 }
 
-def dummy() {
+def dummy(Elu b = Elu.elephant) {
     return "niet"
 }
