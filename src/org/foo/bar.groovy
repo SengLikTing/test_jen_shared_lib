@@ -9,8 +9,4 @@ class bar {
         tiger,
         laohu
     }
-
-    static def dummy() {
-     return "niet"   
-    }
 }
